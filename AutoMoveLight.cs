@@ -14,7 +14,7 @@ public class AutoMoveLight : MonoBehaviour
     const float NIGHT_ANGLE_Z = 0f;
     
     // 昼に光源をセット
-    [MenuItem("GameObject/AutoMoveLight/SetNoon", priority = 21)]
+    [MenuItem("AyahaTools/AutoMoveLight/SetNoon", priority = 21)]
     public static void SetNoon()
     {       
         // GameObjectを選択してなかったらreturn 
@@ -33,7 +33,7 @@ public class AutoMoveLight : MonoBehaviour
     }
 
     // 夜に光源をセット
-    [MenuItem("GameObject/AutoMoveLight/SetNight", priority = 21)]
+    [MenuItem("AyahaTools/AutoMoveLight/SetNight", priority = 21)]
     public static void SetNight()
     {
         // GameObjectを選択してなかったらreturn 
